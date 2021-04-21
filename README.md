@@ -2,7 +2,7 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| | |
+| Signer Loïc | 289076 |
 | | |
 | | |
 
