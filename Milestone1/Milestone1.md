@@ -92,7 +92,7 @@ We really like their graphic design, where the data and pictures suit each other
 
 Here they used one page including the statistic information showing them in multiple ways like map, bar chart, pie chart. What's more, they used food icons and nice designs which make us even feel hungry.
 
-- [America’s Favorite Fast Food](snopes.com/fact-check/americas-favorite-fast-food/)
+- [America’s Favorite Fast Food](https://www.snopes.com/fact-check/americas-favorite-fast-food/)
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/32882147/115754569-9d0c8080-a39c-11eb-9580-3ca5f2390584.jpg)
 
