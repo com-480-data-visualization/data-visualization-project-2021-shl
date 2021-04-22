@@ -1,18 +1,10 @@
-## Milestone 1 (Friday 3rd April, 5pm)
-
-**10% of the final grade**
-
-This is a preliminary milestone to let you set up goals for your final project and assess the feasibility of your ideas. Please, fill the following sections about your project.
-
-(max. 2000 characters per section)
+## Milestone 1
 
 ### Dataset ###
 
-We found this datasets on kaggle :
+We found this datasets on [kaggle](https://www.kaggle.com/michau96/restaurant-business-rankings-2020). You could also find the datasets we used in [dataset](dataset/) file.
 
-https://www.kaggle.com/michau96/restaurant-business-rankings-2020
-
-This dataset represent a ranking of the top restaurant in 2020 based on their sales. It is split into 3 different datasets, The top 250 best restaurant, the top 100 best restaurant among the independent ones and the predicted top 50 of restaurants. They give all kind of information about the restaurant lke their ranking, their sales, their location, their year on year sales increase, type of food served and more.
+This dataset represent a ranking of the top restaurant in 2020 based on their sales. It is split into 3 different datasets, The top 250 best restaurant, the top 100 best restaurant among the independent ones and the predicted top 50 of restaurants. We choose to use 2 datasets -  the top 250 best restaurant, the top 100 best restaurant among the independent ones  in our project. They give all kind of information about the restaurant lke their ranking, their sales, their location, their year on year sales increase, type of food served and more.
 
 For this particular task of a project like this, thoses datasets are great as they do not require much preprocessing or data cleaning to be usable. The main task will be to find a way to use the data together and really show what is interesting about it.
 
@@ -35,8 +27,7 @@ The audience for this project would be pretty sparse, it could be either for cur
 
 ### Exploratory Data Analysis ###
 
-Pre-processing of the data set you chose
-- Show some basic statistics and get insights about the data
+Please find the detalied exploratory data analysis in the [ipynb](Milestone1/EDA.ipynb) file.
 
 
 ### Related work ###
