@@ -92,3 +92,12 @@ We really like their graphic design, where the data and pictures suit each other
 ![fast food](https://user-images.githubusercontent.com/32882147/115752552-7ea58580-a39a-11eb-8a6a-a651d5755ebb.jpg)
 
 Here they used one page including the statistic information showing them in multiple ways like map, bar chart, pie chart. What's more, they used food icons and nice designs which make us even feel hungry.
+
+- America’s Favorite Fast Food(snopes.com/fact-check/americas-favorite-fast-food/)
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/32882147/115754569-9d0c8080-a39c-11eb-9580-3ca5f2390584.jpg)
+
+
+This map looks really funny but it is not based on real data, it is a prank by Barstool Sports, but the visualization way did inspire us to show the distribution of restaurants in the USA with map.
+
+With our clean dataset and lots of inspiration, we are looking forward to making further steps and excited about the results.
