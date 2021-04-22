@@ -29,7 +29,29 @@ The audience for this project would be pretty sparse, it could be either for cur
 
 Please find the detalied exploratory data analysis in the [ipynb](EDA.ipynb) file.
 
+Here is the Top 100 restaurant Dataset:
+
 **![ScreenShot](../image/top100.PNG?raw=true)**
+
+Here is the Top 250 restaurant Dataset:
+
+**![ScreenShot](../image/top250.PNG?raw=true)**
+
+The different type of food for the top 250:
+
+**![ScreenShot](../image/250FoodType.PNG?raw=true)**
+
+The location of the top 100 restaurant:
+
+**![ScreenShot](../image/100Location.PNG?raw=true)**
+
+The sales for the top 250:
+
+**![ScreenShot](../image/250Sales.PNG?raw=true)**
+
+The sales for the top 100:
+
+**![ScreenShot](../image/100Sales.PNG?raw=true)**
 
 
 ### Related work ###
