@@ -61,8 +61,34 @@ The sales for the top 100:
 
 
 ### Related work ###
+**Others work with this data**
 
-- What others have already done with the data?
-- Why is your approach original?
-- What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
-- In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
+There are many people who have already explored the data in a more statistical way, for example showing the correlation of each factor and the histogram of pizza sales.
+
+![Correlation with sales](https://user-images.githubusercontent.com/32882147/115751621-a516f100-a399-11eb-8e71-467f7abf8b19.png)
+
+Correlation With sales
+
+![Most Ordered Type of Food](https://user-images.githubusercontent.com/32882147/115751856-dbed0700-a399-11eb-9ec4-b79f2fc4b7c7.png)
+
+![Pizza Sales Top Restaurants](https://user-images.githubusercontent.com/32882147/115751999-faeb9900-a399-11eb-978d-857eb9ffa415.png)
+
+
+**Our approach**
+
+We will not only show numbers and plots, our website will combine those plots we made and the finding behind it into a story, so that we will convey the information to our target audience in an enthusiastic way. More specifically, we will not only show our plot with interaction, but also design related logos for food and restaurants, so that it is straightforward and pleasant for our audiences.  
+
+**Inspiration**
+
+- Report about restaurants
+(https://brandongaille.com/33-awesome-restaurant-industry-statistics-and-facts/)
+
+![Restaurant-Industry-Statistics1](https://user-images.githubusercontent.com/32882147/115752524-78afa480-a39a-11eb-9333-7842a7beb7db.jpg)
+
+We really like their graphic design, where the data and pictures suit each other and let the audience understand their purpose and information immediately. But their report below has less interaction with this visualization, we would like to fix those issues on our website.
+
+- Fast food statistic
+
+![fast food](https://user-images.githubusercontent.com/32882147/115752552-7ea58580-a39a-11eb-8a6a-a651d5755ebb.jpg)
+
+Here they used one page including the statistic information showing them in multiple ways like map, bar chart, pie chart. What's more, they used food icons and nice designs which make us even feel hungry.
