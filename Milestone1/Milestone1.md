@@ -29,6 +29,8 @@ The audience for this project would be pretty sparse, it could be either for cur
 
 Please find the detalied exploratory data analysis in the [ipynb](EDA.ipynb) file.
 
+Here are the first row of the dataset representing the top 250 and top 100 restaurants, with different kind of information on their sales, type of food, location and more. We decided to focus more on those two dataset and not on the one about the future 50 best restaurant as we can already do a lot with those two but if we got some time and great ideas we might also use this dataset.
+
 Here is the Top 100 restaurant Dataset:
 
 **![ScreenShot](../image/top100.PNG?raw=true)**
