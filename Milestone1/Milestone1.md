@@ -29,7 +29,7 @@ The audience for this project would be pretty sparse, it could be either for cur
 
 Please find the detalied exploratory data analysis in the [ipynb](EDA.ipynb) file.
 
-**![ScreenShot](../image/top100.png?raw=true)**
+**![ScreenShot](../image/top100.PNG?raw=true)**
 
 
 ### Related work ###
