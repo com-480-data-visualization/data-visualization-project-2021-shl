@@ -80,8 +80,7 @@ We will not only show numbers and plots, our website will combine those plots we
 
 **Inspiration**
 
-- Report about restaurants
-(https://brandongaille.com/33-awesome-restaurant-industry-statistics-and-facts/)
+- [Report about restaurants](https://brandongaille.com/33-awesome-restaurant-industry-statistics-and-facts/)
 
 ![Restaurant-Industry-Statistics1](https://user-images.githubusercontent.com/32882147/115752524-78afa480-a39a-11eb-9333-7842a7beb7db.jpg)
 
@@ -93,7 +92,7 @@ We really like their graphic design, where the data and pictures suit each other
 
 Here they used one page including the statistic information showing them in multiple ways like map, bar chart, pie chart. What's more, they used food icons and nice designs which make us even feel hungry.
 
-- America’s Favorite Fast Food(snopes.com/fact-check/americas-favorite-fast-food/)
+- [America’s Favorite Fast Food](snopes.com/fact-check/americas-favorite-fast-food/)
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/32882147/115754569-9d0c8080-a39c-11eb-9580-3ca5f2390584.jpg)
 
