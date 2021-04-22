@@ -2,7 +2,7 @@
 
 ### Dataset ###
 
-We found this datasets on [kaggle](https://www.kaggle.com/michau96/restaurant-business-rankings-2020). You could also find the datasets we used in [dataset](./dataset/) file.
+We found this datasets on [kaggle](https://www.kaggle.com/michau96/restaurant-business-rankings-2020). You could also find the datasets we used in [dataset](../dataset/) file.
 
 This dataset represent a ranking of the top restaurant in 2020 based on their sales. It is split into 3 different datasets, The top 250 best restaurant, the top 100 best restaurant among the independent ones and the predicted top 50 of restaurants. We choose to use 2 datasets -  the top 250 best restaurant, the top 100 best restaurant among the independent ones  in our project. They give all kind of information about the restaurant lke their ranking, their sales, their location, their year on year sales increase, type of food served and more.
 
