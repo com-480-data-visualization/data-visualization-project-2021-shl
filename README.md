@@ -6,7 +6,7 @@
 | Jiang Shasha | 321733 |
 | Sheng Haoyu | 321449 |
 
-[Milestone 1](Milestone1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
+[Milestone 1](Milestone1) • [Milestone 2](Milestone2) • [Milestone 3](#milestone-3)
 
 ## Milestone 1 (23rd April, 5pm)
 
