@@ -38,6 +38,7 @@ Target audience: for those who is interested in eSport and especially who want t
 As eSport is a new industry, we wanted to see how it developed by earnings and if covid also hitted the earnings of eSports. There are many statistical reports referring to eSport, we will focus more on earnings from tournaments and the change during covid-time.
 
 **References**
+
 Players ranking by earnings, Recent tournaments,Largest overall prize pools in esports : EsportEarnings.com
 
 Market Study: The Incredible Growth of eSports
