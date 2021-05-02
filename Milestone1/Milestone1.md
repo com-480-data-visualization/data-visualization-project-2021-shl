@@ -23,7 +23,7 @@ In detail, the variables are:
 1. We want to know how total earnings of each category changes depending on release year. And how many games of each category were released between 1998-2021.  As the earnings are allocated, we assume the game which was released earlier would earn more, but they may also can't survive longer. It would be interesting to see how much different categories earn depending on the release year. 
 2. During covid-time the amount of tournaments and earnings was also influenced, we would like to see how the number of tournaments and earnings in total varies between 1998-2021, especially during covid time
 
-3. For people who want to play tournaments for a living, how many players earn from a game is important. We can show the number of players who earn from tournaments per game in each year and the history of a game according to how the number of players develops.
+3. For people who want to play tournaments for a living, how many players earn from a game should be also useful, so that they could know the popularity of a game. We can show the number of players who earn from tournaments per game in each year and the history of a game according to how the number of players develops.
 
 4. Also, for each year what is the ranking of the games referring to the amount of tournaments also reflects the development of eSport.
 
