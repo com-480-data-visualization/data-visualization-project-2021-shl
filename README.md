@@ -1,3 +1,5 @@
+[Go to our website !](https://com-480-data-visualization.github.io/data-visualization-project-2021-shl/website/)
+
 # Project of Data Visualization (COM-480)
 
 | Student's name | SCIPER |
