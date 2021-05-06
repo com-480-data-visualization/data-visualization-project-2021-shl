@@ -327,12 +327,15 @@ margin-top:100px;
   left: 0;
   background-color: #2dc997;
   visibility: hidden;
+  -webkit-transform: scaleX(0);
   transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .menu-active > a:before {
   visibility: visible;
+  -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
@@ -481,9 +484,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
-section {
-  overflow: hidden;
-}
+
 
 /* Sections Header
 --------------------------------*/
