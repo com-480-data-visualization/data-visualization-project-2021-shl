@@ -17,7 +17,10 @@ body {
 a {
   color: #2dc997;
 }
-
+#sendToMapDiv{
+  margin-left: 8px;
+  margin-top: -80px;
+}
 a:hover, a:active, a:focus {
   color: #2dca98;
   outline: none;
