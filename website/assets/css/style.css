@@ -50,7 +50,10 @@ h1, h2, h3, h4, h5, h6 {
   overflow: visible;
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
-
+#Visualisation{
+padding-top: 30px;
+margin-top:100px;
+}
 /* Back to top button */
 .back-to-top {
   position: fixed;
@@ -80,15 +83,6 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top:hover {
   background: #2dc997;
   color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Disable AOS delay on mobile
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
 }
 
 /*--------------------------------------------------------------
