@@ -741,6 +741,7 @@ section {
 
 #viz .member .pic img {
   max-width: 100%;
+  max-height: 100%;
 }
 
 #viz .member h4 {
