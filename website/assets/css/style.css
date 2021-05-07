@@ -728,6 +728,49 @@ section {
   width: 1000px;
 }
 
+#viz .member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#viz .member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
+}
+
+#viz .member .pic img {
+  max-width: 100%;
+}
+
+#viz .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+#viz .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+#viz .member .social {
+  margin-top: 15px;
+}
+
+#viz .member .social a {
+  color: #b3b3b3;
+}
+
+#viz .member .social a:hover {
+  color: #2dc997;
+}
+
+#viz .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
 
 /* Services Section
 --------------------------------*/
