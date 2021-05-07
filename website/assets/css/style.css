@@ -641,11 +641,9 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  width: 1000px;
 }
 
-.description{
-  width: 850px;
-}
 
 /* Vizualization Section
 --------------------------------*/
@@ -725,11 +723,9 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  width: 1000px;
 }
 
-.description{
-  width: 850px;
-}
 
 /* Services Section
 --------------------------------*/
