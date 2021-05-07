@@ -724,6 +724,10 @@ section {
   font-size: 14px;
 }
 
+.description{
+  width: 850px;
+}
+
 /* Services Section
 --------------------------------*/
 #services {
