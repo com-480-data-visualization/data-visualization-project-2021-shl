@@ -500,7 +500,7 @@ section {
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
 }
 
 .section-header .section-description {
@@ -668,7 +668,6 @@ section {
   color: #333;
   font-weight: 700;
   font-size: 32px;
-  margin-bottom: 100px;
 }
 
 @media (max-width: 768px) {
