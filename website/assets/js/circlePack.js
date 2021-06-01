@@ -1,5 +1,5 @@
 
-var svg = d3.select("#circlePack").append("svg"),
+var svg = d3.select("svg"),
     margin = 20,
     diameter = +svg.attr("width"),
     g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
@@ -13,7 +13,7 @@ var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
 
-d3.json("../data/visu2.json", function(error, root) {
+d3.json("visu2.json", function(error, root) {
   if (error) throw error;
 
   root = d3.hierarchy(root)
