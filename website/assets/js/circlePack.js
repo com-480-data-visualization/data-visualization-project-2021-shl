@@ -1,5 +1,5 @@
 
-var svg = d3.select("svg"),
+var svg = d3.select("#circlePack").append("svg"),
     margin = 20,
     diameter = +svg.attr("width"),
     g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
