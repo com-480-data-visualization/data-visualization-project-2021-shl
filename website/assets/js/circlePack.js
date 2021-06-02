@@ -19,7 +19,7 @@ var pack = d3.pack()
 
 d3.json("https://raw.githubusercontent.com/com-480-data-visualization/data-visualization-project-2021-shl/master/website/assets/js/visu2.json", function(error, root) {
   if (error) throw error;
-
+  console.log(data);
   root = d3.hierarchy(root)
       .sum(function(d) { return d.size; })
       .sort(function(a, b) { return b.value - a.value; });
