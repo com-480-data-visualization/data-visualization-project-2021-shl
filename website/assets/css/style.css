@@ -9,9 +9,8 @@
 # General
 --------------------------------------------------------------*/
 #circleP{
-  position: fixed;
-  left: 50%;
-  margin-left: -100px;
+  margin: 0 auto;
+  width: 100px;
 }
 
 .node {
