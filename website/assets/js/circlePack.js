@@ -1,8 +1,12 @@
 
-var svg = d3.select("svg"),
+var svg = d3.select("#circleP").append("svg")
+	.attr("width", 600 )
+	.attr("height", 600),
     margin = 20,
     diameter = +svg.attr("width"),
-    g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+    g = svg.append("g").attr("transform", "translate(" + diameter/ 2 + "," + diameter / 2 + ")");
+
+
 
 var color = d3.scaleLinear()
     .domain([-1, 5])
@@ -30,6 +34,7 @@ d3.json("visu2.json", function(error, root) {
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       .style("fill", function(d) { return d.children ? color(d.depth) : null; })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+	
 
   var text = g.selectAll("text")
     .data(nodes)
@@ -58,10 +63,10 @@ d3.json("visu2.json", function(error, root) {
         });
 
     transition.selectAll("text")
-      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+      .filter(function(d) { return d.parent === focus || this.style.display === "inline" ; })
         .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
-        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
-        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
+        .on("start", function(d) { if (d.parent == focus  && d.data.size>100) this.style.display = "inline"; })
+        .on("end", function(d) { if (d.parent !== focus && d.data.size<=100) this.style.display = "none"; });
   }
 
   function zoomTo(v) {
