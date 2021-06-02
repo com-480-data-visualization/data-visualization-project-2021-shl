@@ -17,7 +17,7 @@ var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
 
-d3.json("visu2.json", function(error, root) {
+d3.json("https://raw.githubusercontent.com/com-480-data-visualization/data-visualization-project-2021-shl/master/website/assets/js/visu2.json", function(error, root) {
   if (error) throw error;
 
   root = d3.hierarchy(root)
