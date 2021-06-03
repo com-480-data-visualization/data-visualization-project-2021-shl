@@ -4,7 +4,7 @@
 
 ## Milestone 2 Report
 
-You could find our [Milestone 2 report](Milestone2).
+You could find our [Milestone 2 report](Milestone2_Report.pdf).
 
 ## Milestone 2 Initial Website
 
