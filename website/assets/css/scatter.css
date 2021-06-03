@@ -1,0 +1,61 @@
+.tooltip {
+ pointer-events: none;
+ position: absolute;
+}
+  #y_buttons {
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+  .btn-yaxi {
+    color: #ffffff;
+    background-color: #59CDF7;
+    border-color: #130269;
+  }
+
+  .btn-yaxi:hover,
+  .btn-yaxi:focus,
+  .btn-yaxi:active,
+  .btn-yaxi.active,
+  .open .dropdown-toggle.btn-yaxi {
+    color: #ffffff;
+    background-color: #0670CC;
+    border-color: #130269;
+  }
+
+  .btn-yaxi:active,
+  .btn-yaxi.active,
+  .open .dropdown-toggle.btn-yaxi {
+    background-image: none;
+  }
+
+  .btn-yaxi.disabled,
+  .btn-yaxi[disabled],
+  fieldset[disabled] .btn-yaxi,
+  .btn-yaxi.disabled:hover,
+  .btn-yaxi[disabled]:hover,
+  fieldset[disabled] .btn-yaxi:hover,
+  .btn-yaxi.disabled:focus,
+  .btn-yaxi[disabled]:focus,
+  fieldset[disabled] .btn-yaxi:focus,
+  .btn-yaxi.disabled:active,
+  .btn-yaxi[disabled]:active,
+  fieldset[disabled] .btn-yaxi:active,
+  .btn-yaxi.disabled.active,
+  .btn-yaxi[disabled].active,
+  fieldset[disabled] .btn-yaxi.active {
+    background-color: #59CDF7;
+    border-color: #130269;
+  }
+
+  .btn-yaxi .badge {
+    color: #59CDF7;
+    background-color: #ffffff;
+  }
+      .bubbles {
+        stroke-width: 2px;
+        stroke: white;
+      }
+
+      .bubbles:hover {
+        stroke: black;
+      }

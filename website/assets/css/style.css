@@ -593,7 +593,7 @@ section {
 #about {
   background: #fff;
   padding: 80px 0;
-  margin-bottom: 300px;
+  margin-bottom: 0px;
 }
 
 #about .about-container .background {
@@ -761,7 +761,7 @@ section {
 #viz .member .pic {
   margin-bottom: 5px;
   overflow: hidden;
-  
+
 }
 
 #viz .member .pic img {
@@ -795,6 +795,18 @@ section {
 #viz .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+iframe {
+  scrolling="no";
+  border: none;
+}
+.viz-intro{
+  width: 1050px;
+}
+
+#barChart{
+  margin-top: 0px;
+  margin-left: 60px;
 }
 
 /* Services Section
