@@ -1,5 +1,5 @@
 
-d3.json("visuYear.json",function(error, data) {
+d3.json("https://raw.githubusercontent.com/com-480-data-visualization/data-visualization-project-2021-shl/master/website/assets/js/visuYear.json",function(error, data) {
   if (error) throw error;
   
   var svg = d3.select("#circleP").append("svg")
