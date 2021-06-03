@@ -1,5 +1,3 @@
-[Go to our website !](https://com-480-data-visualization.github.io/data-visualization-project-2021-shl/website/)
-
 # Project of Data Visualization (COM-480)
 
 | Student's name | SCIPER |
@@ -8,54 +6,31 @@
 | Jiang Shasha | 321733 |
 | Sheng Haoyu | 321449 |
 
-[Milestone 1](Milestone1) • [Milestone 2](Milestone2) • [Milestone 3](#milestone-3)
 
-## Milestone 1 (23rd April, 5pm)
+# Esport earning visualizations
+Project for COM-480 Data Visualization Course at EPFL
 
-**10% of the final grade**
+## How to use it ?
+That's really simple, you just need to go to our [website](https://com-480-data-visualization.github.io/data-visualization-project-2021-shl/website/), under the visualizations section and you'll be able to interact with multiple visualizations showing different aspects of the earnings in Esport.
 
-This is a preliminary milestone to let you set up goals for your final project and assess the feasibility of your ideas.
-Please, fill the following sections about your project.
+## Dataset
 
-*(max. 2000 characters per section)*
+- https://www.kaggle.com/rankirsh/esports-earnings
 
-### Dataset
+## Screencast
 
-> Find a dataset (or multiple) that you will explore. Assess the quality of the data it contains and how much preprocessing / data-cleaning it will require before tackling visualization. We recommend using a standard dataset as this course is not about scraping nor data processing.
->
-> Hint: some good pointers for finding quality publicly available datasets ([Google dataset search](https://datasetsearch.research.google.com/), [Kaggle](https://www.kaggle.com/datasets), [OpenSwissData](https://opendata.swiss/en/), [SNAP](https://snap.stanford.edu/data/) and [FiveThirtyEight](https://data.fivethirtyeight.com/)), you could use also the DataSets proposed by the ENAC (see the Announcements section on Zulip).
+add link to the screencast
 
-### Problematic
+## Milestones
+**Milestone 1**:
+see [here](Milestone1/milestone1.md)
 
-> Frame the general topic of your visualization and the main axis that you want to develop.
-> - What am I trying to show with my visualization?
-> - Think of an overview for the project, your motivation, and the target audience.
+**Milestone 2**:
+see [here](Milestone2/milestone2.md)
 
-### Exploratory Data Analysis
+**Milestone 3**:
+[Go to our website !](https://com-480-data-visualization.github.io/data-visualization-project-2021-shl/website/)
 
-> Pre-processing of the data set you chose
-> - Show some basic statistics and get insights about the data
+add link to processbook
 
-### Related work
-
-
-> - What others have already done with the data?
-> - Why is your approach original?
-> - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
-> - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
-
-## Milestone 2 (7th May, 5pm)
-
-**10% of the final grade**
-
-
-## Milestone 3 (4th June, 5pm)
-
-**80% of the final grade**
-
-
-## Late policy
-
-- < 24h: 80% of the grade for the milestone
-- < 48h: 70% of the grade for the milestone
 
