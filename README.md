@@ -23,10 +23,10 @@ add link to the screencast
 
 ## Milestones
 **Milestone 1**:
-see [here](Milestone1/milestone1.md)
+see [here](Milestone1/Milestone1.md)
 
 **Milestone 2**:
-see [here](Milestone2/milestone2.md)
+see [here](Milestone2/Milestone2.md)
 
 **Milestone 3**:
 [Go to our website !](https://com-480-data-visualization.github.io/data-visualization-project-2021-shl/website/)
