@@ -91,7 +91,7 @@ d3.json("https://raw.githubusercontent.com/com-480-data-visualization/data-visua
   function update(selectedGroup) {
 	 
 	d3.select("#circleP").select("svg").remove();
-	d3.select("#selectButton").remove();  
+	d3.select("#selectButton").select("myOptions").remove();  
 	
 	var svg = d3.select("#circleP").append("svg")
 	.attr("width", 600 )
