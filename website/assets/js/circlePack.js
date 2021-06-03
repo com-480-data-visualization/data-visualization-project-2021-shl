@@ -91,6 +91,7 @@ d3.json("https://raw.githubusercontent.com/com-480-data-visualization/data-visua
   function update(selectedGroup) {
 	 
 	d3.select("#circleP").select("svg").remove();
+	d3.select("#selectButton").select("option").remove();  
 	
 	var svg = d3.select("#circleP").append("svg")
 	.attr("width", 600 )
@@ -107,6 +108,16 @@ d3.json("https://raw.githubusercontent.com/com-480-data-visualization/data-visua
   var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
+	  
+  var allGroup = ['1998', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021']
+  // add the options to the button
+   d3.select("#selectButton")
+     .selectAll('myOptions')
+     .data(allGroup)
+     .enter()
+     .append('option')
+     .text(function (d) { return d; }) // text showed in the menu
+     .attr("value", function (d) { return d; }) // corresponding value returned by the button
   	 
   var idx = allGroup.indexOf(selectedGroup);
   var root = d3.hierarchy(data.children[idx])
