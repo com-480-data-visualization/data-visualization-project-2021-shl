@@ -29,7 +29,7 @@ see [here](Milestone1/Milestone1.md)
 see [here](Milestone2/Milestone2.md)
 
 **Milestone 3**:
-see our [process book](Milestone3/ProgressBook.pdf)
+see our [process book](Milestone3/ProcessBook.pdf)
 
 Get an intial introduction to our website by cilcking ()!
 
