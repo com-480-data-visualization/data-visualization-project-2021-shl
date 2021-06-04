@@ -1,3 +1,4 @@
+// linechar reference= http://bl.ocks.org/gniemetz/4618602
 var main_margin = {top: 20, right: 80, bottom: 100, left: 40},
     mini_margin = {top: 430, right: 80, bottom: 20, left: 40},
     main_width = 960 - main_margin.left - main_margin.right,
