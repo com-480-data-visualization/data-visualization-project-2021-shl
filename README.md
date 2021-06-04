@@ -29,8 +29,10 @@ see [here](Milestone1/Milestone1.md)
 see [here](Milestone2/Milestone2.md)
 
 **Milestone 3**:
+see our [progress book](Milestone3/ProgressBook.pdf)
+
 [Go to our website !](https://com-480-data-visualization.github.io/data-visualization-project-2021-shl/website/)
 
-see our [process book](Milestone3/ProcessBook.pdf)
+
 
 
