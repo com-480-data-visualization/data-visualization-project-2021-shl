@@ -31,7 +31,7 @@ see [here](Milestone2/Milestone2.md)
 **Milestone 3**:
 see our [process book](Milestone3/ProcessBook.pdf)
 
-Get an intial introduction to our website by cilcking ()!
+Get an intial introduction to our website by viewing [screencast](https://www.youtube.com/watch?v=UAp2G3y2WLw)!!
 
 [Go to our website !](https://com-480-data-visualization.github.io/data-visualization-project-2021-shl/website/)
 
