@@ -19,7 +19,7 @@ That's really simple, you just need to go to our [website](https://com-480-data-
 
 ## Screencast
 
-add link to the screencast
+Have a look on our fancy [screencast](https://www.youtube.com/watch?v=UAp2G3y2WLw)!
 
 ## Milestones
 **Milestone 1**:
