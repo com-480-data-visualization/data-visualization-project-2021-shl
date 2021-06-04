@@ -1,25 +1,9 @@
-
-function whenDocumentLoaded(action) {
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", action);
-  } else {
-    // `DOMContentLoaded` already fired
-    action();
-  }
-}
-
-class LineChart {
-  constructor(svg_element_id, data_path) {
-var main_margin = {top: 30, right: 80, bottom: 100, left: 40},
+var main_margin = {top: 20, right: 80, bottom: 100, left: 40},
     mini_margin = {top: 430, right: 80, bottom: 20, left: 40},
     main_width = 960 - main_margin.left - main_margin.right,
     main_height = 500 - main_margin.top - main_margin.bottom,
     mini_height = 500 - mini_margin.top - mini_margin.bottom;
 
-var svg = d3.select(svg_element_id).append("svg")
-      .attr("width", main_width + main_margin.left + main_margin.right)
-      .attr("height", main_height + main_margin.top + main_margin.bottom);
-};
 var formatDate = d3.time.format("%m/%Y"),
     parseDate = formatDate.parse,
     bisectDate = d3.bisector(function(d) { return d.Date; }).left,
@@ -98,7 +82,9 @@ var brush = d3.svg.brush()
 * ========================================================================
 */
 
-
+var svg = d3.select("body").append("svg")
+    .attr("width", main_width + main_margin.left + main_margin.right)
+    .attr("height", main_height + main_margin.top + main_margin.bottom);
 
 svg.append("defs").append("clipPath")
     .attr("id", "clip")
@@ -123,7 +109,7 @@ var expl_text = display_range_group.append("text")
 
 
 
-d3.csv(data_path, function(error, data) {
+d3.csv("assets/data/tournaments_earnings.csv", function(error, data) {
   data.forEach(function(d) {
     d.Date = parseDate(d.Date);
     d.Tournaments = +d.Tournaments;
@@ -135,8 +121,8 @@ d3.csv(data_path, function(error, data) {
   // });
   var dataXrange = d3.extent(data, function(d) { return d.Date; });
   var covidDate = [data[data.length - 20].Date, data[data.length - 1].Date];
-  var fiveYrsDate = [data[data.length - 76].Date, data[data.length - 1].Date];
-  var tenYrsDate = [data[data.length - 124].Date, data[data.length - 1].Date];
+  var fiveYrsDate = [data[data.length - 75].Date, data[data.length - 1].Date];
+  var tenYrsDate = [data[data.length - 123].Date, data[data.length - 1].Date];
   var initalDate = [dataXrange[0],dataXrange[1]];
 
   main_x.domain([data[0].Date, data[data.length - 1].Date]);
@@ -365,12 +351,3 @@ function updateDisplayDates() {
     d3.select("#displayDates")
         .text(localBrushDateStart == localBrushDateEnd ? localBrushDateStart : localBrushDateStart + " - " + localBrushDateEnd);
 };
-}
-whenDocumentLoaded(() => {
-  let plot = new LineChart('#my_linecahrt', 'assets/data/tournaments_earnings.csv');
-});
-
-d3.select("#replay")
-  .on("click", function() {
-    location.reload()
-  })
