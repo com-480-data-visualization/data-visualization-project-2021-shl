@@ -31,6 +31,6 @@ see [here](Milestone2/Milestone2.md)
 **Milestone 3**:
 [Go to our website !](https://com-480-data-visualization.github.io/data-visualization-project-2021-shl/website/)
 
-add link to processbook
+see our [process book](Milestone3/ProcessBook.pdf)
 
 
