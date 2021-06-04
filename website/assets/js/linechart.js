@@ -109,7 +109,7 @@ var expl_text = display_range_group.append("text")
 
 
 
-d3.csv("assets/data/tournaments_earnings.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/data-visualization-project-2021-shl/master/website/assets/data/tournaments_earnings.csv", function(error, data) {
   data.forEach(function(d) {
     d.Date = parseDate(d.Date);
     d.Tournaments = +d.Tournaments;
