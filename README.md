@@ -37,8 +37,9 @@ Get an intial introduction to our website by cilcking ()!
 
 ## Project Structure
 
-There are three files for Milestone 1, 2 and 3. The dataset file contains the original datasets we get from kaggle. Our website codes are in the file named "website". Except the Earned player part (the bubble chart), the scatter plot, bar race chart, the line chart and stacked bar chart all have accordingly embedded html which in the website folder.  Inside website folder, the assets folder contains css, js, data and vendor files. The vendor files contains those addtional libraries. The css files contains each page's according css styles. The js files contains d3.js codes. The data file contains those data we summarized from orginial datasets that used in our visualizations. 
+There are three files for Milestone 1, 2 and 3. The dataset file contains the original datasets we get from kaggle. Our website codes are in the file named "website". Except the Earned player part (the bubble chart), the scatter plot, bar race chart, the line chart and stacked bar chart all have accordingly embedded html which in the website folder.  Inside website folder, the assets folder contains css, js, data and vendor files. The vendor files contains those addtional libraries. The css files contains each page's according css styles. The js files contains d3.js codes. The data file contains those data we summarized from orginial datasets that used in our visualizations.
 
+```console
 ├── Milestone1
 │   ├── EDA.ipynb
 │   └── Milestone1.md
@@ -66,7 +67,7 @@ There are three files for Milestone 1, 2 and 3. The dataset file contains the or
     │   │   ├── gamecategory.csv
     │   │   ├── tournament2.csv
     │   │   ├── tournaments_earnings.csv
-    │   │   └── yearlyEarning.csv 
+    │   │   └── yearlyEarning.csv
     │   ├── img
     │   ├── js
     │   │   ├── barrace.js
@@ -85,3 +86,4 @@ There are three files for Milestone 1, 2 and 3. The dataset file contains the or
 ​    ├── linechart.html
 ​    ├── scatter.html
 ​    └── stackbar.html
+```
